@@ -1,0 +1,48 @@
+html {
+	background-color: $color-light-gray;
+}
+
+.main-view {
+	padding-top: $base-size-large;
+	min-height: 100%;
+	background-color: $color-white;
+}
+
+.footer {
+	background-color: $color-white;
+	padding: $base-size-small;
+	text-align: center;
+}
+
+// Grid Stuff
+/////////////////////////////////////////////////
+
+$susy: (
+  columns: 12,
+  gutters: .25,
+  gutter-position: inside,
+);
+
+.container { @include container(1000px); }
+
+@media screen and (max-width: $mobile) {
+	$susy: (
+	  gutters: 20px,
+	);
+
+	.container { 
+		@include container(100%); 
+		padding: $base-size-small;
+	}
+
+}
+
+.body-copy {
+	@include span(8 of 12); 
+	@include push(1);
+}
+
+.tickets {
+	@include span(12 of 12); 
+	@include push(0);
+}

@@ -1,0 +1,39 @@
+// Buttons
+/////////////////////////////////////////////////
+
+.button {
+	display: inline-block;
+	color: $color-white;
+	font-weight: 600;
+	padding: $base-size-small;
+	border-radius: $br;
+	margin-top: $base-size-small;
+	margin-right: $base-size-small;
+	cursor: pointer;
+
+	&.-primary {
+		background-color: $color-brand-blue;
+	}
+
+	&.-secondary {
+		background-color: $color-red;
+	}
+}
+
+// Misc
+/////////////////////////////////////////////////
+
+.ticket-info-box {
+	display: block;
+	margin-bottom: $base-size-small;
+
+	.ticket-info {
+		display: inline-block;
+		margin-right: $base-size-small;
+		margin-bottom: $base-size-small;
+
+		> strong {
+			font-weight: 700;
+		}
+	}
+}

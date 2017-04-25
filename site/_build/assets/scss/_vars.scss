@@ -1,0 +1,37 @@
+// BRAND COLORS
+$color-light-gray: 						#f8f8f8;
+$color-medium-gray: 					#EDEDED;
+$color-brand-blue: 						#364A7F;
+$color-light-blue: 						#6D94FF;
+$color-red: 									#CF585A;
+$color-yellow: 								#FFDC85;
+$color-orange: 								#FF7358;
+$color-green: 								#3DBF78;
+
+
+// OTHER COLORS
+$color-white: 								#ffffff;
+$color-black: 								#4a4a4a;
+
+
+
+// MEASUREMENTS
+$base-size: 									25px;
+$base-size-small-x: 					5px;
+$base-size-small: 						10px;
+$base-size-large: 						$base-size * 2;
+
+
+
+// TYPOGRAPHY
+$font-stack: 									'Source Sans Pro', sans-serif;
+$font-size: 									18px;
+$font-size-small: 						14px;
+$font-size-large: 						24px;
+$font-size-large-x:						36px;
+
+// Media Queries
+$mobile: 											786px;
+
+// MISC
+$br: 													5px;

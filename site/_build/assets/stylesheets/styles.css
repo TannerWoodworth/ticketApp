@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,700");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.t-center {
+  text-align: center; }
+
+.t-italic {
+  font-style: italic; }
+
+html {
+  background-color: #f8f8f8; }
+
+.main-view {
+  padding-top: 50px;
+  min-height: 100%;
+  background-color: #ffffff; }
+
+.footer {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center; }
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto; }
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+@media screen and (max-width: 786px) {
+  .container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px; }
+    .container:after {
+      content: " ";
+      display: block;
+      clear: both; } }
+
+.body-copy {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 66.66667%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+  margin-left: 8.33333%; }
+
+.tickets {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+  margin-left: 0%; }
+
+html {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  color: #4a4a4a; }
+
+.h1 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 25px; }
+
+.h2 {
+  font-weight: 700;
+  margin-bottom: 10px; }
+
+a {
+  color: #6D94FF;
+  text-decoration: none;
+  cursor: pointer; }
+
+p {
+  margin-bottom: 10px; }
+
+.button {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+  cursor: pointer; }
+  .button.-primary {
+    background-color: #364A7F; }
+  .button.-secondary {
+    background-color: #CF585A; }
+
+.ticket-info-box {
+  display: block;
+  margin-bottom: 10px; }
+  .ticket-info-box .ticket-info {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px; }
+    .ticket-info-box .ticket-info > strong {
+      font-weight: 700; }
+
+.navbar {
+  display: block;
+  width: 100%;
+  padding: 20px 0;
+  background-color: #364A7F; }
+  .navbar .site-name {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 24px; }
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block; }
+    .navbar a:hover {
+      cursor: pointer; }
+  .navbar .pull-right {
+    float: right; }
+
+.ticket-table {
+  margin-top: 25px;
+  width: 100%;
+  text-align: left; }
+  .ticket-table tr {
+    border-top: solid 1px #EDEDED;
+    border-bottom: solid 1px #EDEDED; }
+    .ticket-table tr:first-child {
+      border-top: 0px; }
+  .ticket-table th, .ticket-table td {
+    padding: 10px; }
+  .ticket-table th {
+    font-weight: 700; }
+  .ticket-table .resolved > td {
+    opacity: .5; }
+  .ticket-table .ticket-color {
+    display: block;
+    height: 18px;
+    width: 18px;
+    margin: 0 auto;
+    border: solid 1px #f8f8f8; }
+    .ticket-table .ticket-color.-blue {
+      background-color: #6D94FF;
+      border: 0px; }
+    .ticket-table .ticket-color.-green {
+      background-color: #3DBF78;
+      border: 0px; }
+    .ticket-table .ticket-color.-yellow {
+      background-color: #FFDC85;
+      border: 0px; }
+    .ticket-table .ticket-color.-orange {
+      background-color: #FF7358;
+      border: 0px; }
